@@ -8,6 +8,8 @@ Optional styling for bbplayer elements.
   font: 200 16px/1.5 Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #898989;
   display: inline-block;
+  width:100%;
+  padding: 10px;
 }
 
 .bb-play {
@@ -72,7 +74,7 @@ Optional styling for bbplayer elements.
   display: inline-block;
   vertical-align: top;
   font-weight: bold;
-  width: 8em;
+  width: 550px;
   overflow: hidden;
   text-align: center;
 }
@@ -144,10 +146,31 @@ Optional styling for bbplayer elements.
   }
 
 }
-
-.songslist li {
+.songslist {
+	height: 360px;
+  overflow-y:auto;
+}
+.songslist th {
+	text-align:left;
+  padding:5px;
+}
+.songslist td {
 	padding: 10px;
+}
+.songslist tr {
   border-bottom: 1px solid #aaaaaa;
+}
+
+.authors {
+	float:left;
+}
+.authors ul {
+	list-style-type:none;
+}
+.authors li {
+	float:left;
+	padding: 2px 5px;
+  border: 1px solid #effedd;
   background-color: #eeeeee;
 }
 
